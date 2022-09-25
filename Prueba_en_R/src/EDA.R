@@ -38,7 +38,8 @@ GenerateFullEDAAndPlots <- function(consolidated.data) {
     nlim=3,
     fname=NULL,
     col=c("darkgreen","springgreen3","springgreen1"),
-    Page=c(2,2))[[1]]
+    Page=c(2,2),
+    value = "mpg")[[1]]
   
   categorical.distributions.vs.target <- ExpCatViz(
     consolidated.data,
@@ -47,7 +48,8 @@ GenerateFullEDAAndPlots <- function(consolidated.data) {
     clim=5,
     col=c("slateblue4","slateblue1"),
     margin=2,
-    Page = c(2,1))[[1]]
+    Page = c(4,3),
+    value = "mpg")[[1]]
   
   
   relevant.variables <- ExpCatStat(
