@@ -38,8 +38,7 @@ GenerateFullEDAAndPlots <- function(consolidated.data) {
     nlim=3,
     fname=NULL,
     col=c("darkgreen","springgreen3","springgreen1"),
-    Page=c(2,2),
-    value = "mpg")[[1]]
+    Page=c(2,2))[[1]]
   
   categorical.distributions.vs.target <- ExpCatViz(
     consolidated.data,
